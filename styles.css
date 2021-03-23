@@ -1,0 +1,47 @@
+.calculator{
+  border: 3px solid black;
+  border-radius: 40px;
+  height: 80%;
+  width: 80%;
+  margin: 10%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-color: black;
+}
+
+.visorStyle{
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: white;
+  width: 90%;
+  margin: 5%;
+  text-align: right;
+  padding-right: 15px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.tableButtons{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+.tableButtons tr td button{
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: white;
+  width: 95%;
+  padding: 10px;
+  margin: 5px;
+  outline: none;
+  font-size: 200%;
+  font-weight: 700;
+}
+
+.tableButtons tr td button:hover{
+  border: 3px solid white;
+  background-color: black;
+  color: white;
+}
